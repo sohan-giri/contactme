@@ -33,7 +33,7 @@ const App = () => {
   const handleEmail = async (values) => {
     try {
       const msg = {
-        to: 'harriscoder4@gmail.com', 
+        to: 'info@redpositive.in', 
         from: 'sgiri7598@gmail.com', 
         subject: 'New message from contact form',
         text: `Name: ${values.name}\nEmail: ${values.email}\nMobile: ${values.mobile}\nMessage: ${values.txt}`,
